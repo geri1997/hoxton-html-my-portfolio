@@ -8,10 +8,10 @@ html{
 }
 a{
     text-decoration: none;
-    color: rgb(38, 38, 199);
+    color: rgb(141, 103, 177);
 }
 body{
-    background-color: cadetblue;
+    background-color: #e5e5e5;
 }
 /* header */
 li.aside{
@@ -19,18 +19,22 @@ li.aside{
 }
 #burger{
     width: 30px;
+    background:beige;
 }
 
 header#main-header li:nth-of-type(7){
     display: none;
 }
 header.top{
-    background-color: rgb(150, 114, 114);
+    background-color: #14213d;
     padding: 1.7rem;
     color: white;
     font-weight: 700;
     margin: 1.5rem;
     position: sticky;
+    top: 1.5rem;
+    z-index: 2;
+    
     
     
 }
@@ -65,8 +69,8 @@ hr{
 }
 
 
-section.main-section{
-    background-color: rgb(150, 114, 114);
+section.main-section{   
+    background-color: #fca311;
     padding: 1.5rem;
     text-align: center;
 }
@@ -86,9 +90,9 @@ aside{
     display: grid;
     height: 550px;
     position: sticky;
-    top: 1rem;
+    top: 8rem;
     row-gap: 2rem;
-    background-color: rgb(150, 114, 114);
+    background-color: #fca311;
     padding: 1.4rem;
     text-align: center;
 }
@@ -106,6 +110,10 @@ aside li img{
 aside span{
     font-size: 1.7rem;
     font-weight: 700;
+}
+aside ul{
+    background-color: beige;
+    padding-top: 0.6rem;
 }
 aside span:nth-of-type(2){
     font-size: 1rem;
