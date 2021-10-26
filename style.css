@@ -56,7 +56,7 @@ header nav ul li{
 /* Main */
 main{
     display: grid;
-    grid-template-columns: minmax(300px,1fr) minmax(200px,280px);
+    grid-template-columns: minmax(300px,1fr) minmax(280px,350px);
     margin: 2rem;
     column-gap: 2rem;
 }
