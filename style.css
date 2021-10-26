@@ -36,6 +36,7 @@ header.top{
 }
 header nav ul{
     display: grid;
+    align-items: center;
     grid-template-columns: minmax(100px,1fr) auto auto auto auto auto;
 }
 header nav ul li{
